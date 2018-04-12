@@ -1,0 +1,7 @@
+git init
+create files
+git add .  
+git commit -m "First commit"
+git remote add origin https://github.com/sreejith-m/projectmanager.git
+git push origin master
+if any error occur while pushing, try - git pull origin master --allow-unrelated-histories
